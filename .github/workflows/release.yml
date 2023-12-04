@@ -30,6 +30,6 @@ jobs:
           npm run build
 
       - name: Deploy widgets
-        working-directory: ./build/builddao
+        working-directory: ./build/bluntdao
         run: |
           bos components deploy "$BOS_DEPLOY_ACCOUNT_ID" sign-as "$BOS_SIGNER_ACCOUNT_ID" network-config mainnet sign-with-plaintext-private-key --signer-public-key "$BOS_SIGNER_PUBLIC_KEY" --signer-private-key "$BOS_SIGNER_PRIVATE_KEY" send
