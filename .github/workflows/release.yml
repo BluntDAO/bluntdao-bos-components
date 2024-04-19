@@ -11,6 +11,6 @@ jobs:
       app-name: "bluntdao"
       deploy-account-address: bluntdao.near
       signer-account-address: bluntdao.near
-      signer-public-key: ${{ vars.BOS_SIGNER_PUBLIC_KEY }}
+      signer-public-key: ed25519:4wXdpG1QJxfVMqyT1Ct9kbGyjXaVKEXsW6s8uiwanFk9
     secrets:
       SIGNER_PRIVATE_KEY: ${{ secrets.BOS_SIGNER_PRIVATE_KEY }}
