@@ -115,7 +115,7 @@ return (
     </CardLeft>
     {!!context.accountId && !isOG && (
       <Widget
-        src="bluntdao.near/widget/BluntDAO.Button.Join"
+        src="bos.bluntdao.near/widget/BluntDAO.Button.Join"
         props={{ newMember: accountId, accountId: context.accountId }}
       />
     )}

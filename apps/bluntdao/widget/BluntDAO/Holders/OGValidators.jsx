@@ -167,7 +167,7 @@ function Sharddog({ owner, media }) {
       </div>
       <div className="col-sm-12">
         <Widget
-          src="bluntdao.near/widget/BluntDAO.member"
+          src="bos.bluntdao.near/widget/BluntDAO.member"
           props={{
             accountId: owner,
             isOG: isOG,
