@@ -1,20 +1,18 @@
-# bluntdao-bos-components
+# Blunt DAO BOS Cmponents
 Blunt DAO workspace for all BOS components
 
-## Getting Started 
+## Getting started
 
-```
-npm install
-```
+1. Install packages
 
-Then, run the command:
-
-```
-npm run dev
+```cmd
+yarn install
 ```
 
-This will serve the widgets from `http://127.0.0.1:4040/`.
+2. Start dev environment
 
-Go to [everything.dev/flags](https://everything.dev) and paste this value there.
+```cmd
+yarn run dev
+```
 
-Once set, see the locally served app at [bluntdao.near/widget/app](https://everything.dev/bluntdao.near/widget/app).
+This will start a gateway at [127.0.0.1:8080](http://127.0.0.1:8080) which will render your local widgets.
